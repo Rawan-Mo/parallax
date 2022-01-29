@@ -1,0 +1,68 @@
+*{
+    border:0;
+    margin:0;
+    padding:0;
+}
+
+div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:150vh;
+}
+
+h2{
+    font-family: "Lato", sans-serif;
+    font-size: 60px;
+    padding: 50px 80px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.section{
+    text-align:center;
+    padding:100px 80px;
+}
+
+.section-light{
+    background-color:#efedf7;
+    color:#40367c;
+}  
+
+.section-dark{
+    background-color:darkslateblue;
+    color:white;
+}
+
+
+div:nth-child(1){
+    background-image: url(images/IMG_2362.jpg);
+    background-size: cover;
+}
+
+div:nth-child(3){
+    background-image: url(images/IMG_2737.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div:nth-child(5){
+    background-image: url(images/IMG_3109.JPG);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div:nth-child(7){
+    background-image: url(images/IMG_2611.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div:nth-child(9){
+    background-image: url(images/IMG_3466.jpg);
+    background-size: cover;
+    position: relative;
+    background-attachment: scroll;
+}
